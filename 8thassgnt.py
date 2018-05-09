@@ -11,7 +11,7 @@ Created on Tue May  8 09:28:58 2018
 def createStack():
     stack=[]
     return stack
- 
+
 # Function to determine the size of the stack
 def size(stack):
     return len(stack)
@@ -56,6 +56,18 @@ string = reverse(string)
 print("Reversed string is " + string)
  
 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 #2. Infix stack expressions
 # Stack implementation
 class Stack:
@@ -206,6 +218,24 @@ while(ops.isEmpty() is False):
 print ("Result of the expression is " + str(var.pop()))
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #3.	Convert the following
 #a.	a + b * (c ^ d - e) ^ ( f + g * h) -i    into postfix 
 
@@ -247,6 +277,23 @@ def evaluate_postfix(formula):
     return stack[-1]
 if __name__ == '__main__':
     infix_to_postfix('a+b*(c^d-e)^(f+g*h)-i')
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     
 #Infix to Prefix
@@ -304,6 +351,22 @@ if __name__ == '__main__':
 
 
 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 
 #bt,wt,tat stands for burst time, waiting time, turn around time  respectively
 
